@@ -41,7 +41,7 @@ from sklearn.compose import ColumnTransformer
 ## DATA
 
 ```{r warning=FALSE}
-fraud <- read_csv("C:/Users/YOUNES/Desktop/base examen écrit.csv")
+fraud <- read_csv("C:/Users/YOUNES/Desktop/FRAUD.csv")
 ```
 
 ## Imbalanced data
