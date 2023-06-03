@@ -20,7 +20,7 @@ library(tidymodels)
 library(tidyverse)
 library(reticulate)
 library(bonsai)
-use_python("C:/Users/Timgad informatique/AppData/Local/Programs/Python/Python310/python.exe")
+use_python("C:/Users/YOUNES/AppData/Local/Programs/Python/Python310/python.exe")
 ```
 
 ```{python}
@@ -40,7 +40,7 @@ from sklearn.compose import ColumnTransformer
 ## Importing Raw Data
 
 ```{r warning=FALSE}
-df <- read_csv("C:/Users/Timgad informatique/Desktop/EXM/Telco-Customer-Churn.csv")
+df <- read_csv("C:/Users/YOUNES/Desktop/Telco-Customer-Churn.csv")
 ```
 
 ## Imbalanced data ?
@@ -61,7 +61,7 @@ Imbalanced_data_test <- testing(Imbalanced_data_split)
 ## Balancing data Using SMOTE-NC (Python Chunk) \*\* NO DATA LEAKAGE \*\*
 
 ```{python}
-dfb = pd.read_csv("C:/Users/Timgad informatique/Desktop/EXM/Telco-Customer-Churn.csv")
+dfb = pd.read_csv("C:/Users/YOUNES/Desktop/Telco-Customer-Churn.csv")
 dfb = dfb.iloc[:,1:]
 X = dfb.iloc[:,:-1]
 y = dfb.iloc[:,-1]
