@@ -22,7 +22,7 @@ library(reticulate)
 library(ROSE)
 library(themis)
 library(bonsai)
-use_python("C:/Users/Timgad informatique/AppData/Local/Programs/Python/Python310/python.exe")
+use_python("C:/Users/AppData/Local/Programs/Python/Python310/python.exe")
 ```
 
 ```{python}
@@ -41,7 +41,7 @@ from sklearn.compose import ColumnTransformer
 ## DATA
 
 ```{r warning=FALSE}
-fraud <- read_csv("C:/Users/Timgad informatique/Desktop/EXM/base examen écrit.csv")
+fraud <- read_csv("C:/Users/YOUNES/Desktop/base examen écrit.csv")
 ```
 
 ## Imbalanced data
